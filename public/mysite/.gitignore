@@ -1,0 +1,4 @@
+
+#leave these in or take them out depending on whether you want to check in compiled files
+js/dist/
+styles/dist/

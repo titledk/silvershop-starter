@@ -1,0 +1,11 @@
+#Navigation {
+  .menu {
+    li.current,
+    li.section,
+    li:hover {
+      a {
+        color: $secondary-color;
+      }
+    }
+  }
+}

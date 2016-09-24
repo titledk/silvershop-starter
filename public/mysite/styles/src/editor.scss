@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import 'settings';
+@import '../../node_modules/foundation-sites/scss/foundation';
+
+.typography {
+  font-family: $body-font-family;
+  font-weight: $global-weight-normal;
+  line-height: $global-lineheight;
+  color: $body-font-color;
+  background: $body-background;
+  font-size: $global-font-size;
+
+  @include foundation-label;
+  @include foundation-table;
+  @include foundation-typography;
+  @include foundation-button;
+}
+@import 'typography/typography';
+@import 'silverstripe/editor-styles';
+

@@ -1,0 +1,20 @@
+header.header,
+footer.footer {
+  @include useGutter(1, 'padding');
+  background: $secondary-color;
+  h2,
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darken($primary-color, 30%);
+  }
+}
+nav.primary {
+  background: $topbar-background;
+}
+
+#Breadcrumbs {
+  ul.breadcrumbs {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+//http://foundation.zurb.com/forum/posts/39598-reusing-grid-column-gutter-value
+@mixin useGutter($multiplier:1,$prop:margin-bottom) {
+  $gutter: $grid-column-gutter;
+  @if type-of($gutter) == 'map' {
+    @each $breakpoint, $value in $gutter {
+      $value: rem-calc($value) * $multiplier;
+      @include breakpoint($breakpoint) {
+        #{$prop}: $value;
+      }
+    }
+  }
+  @else if type-of($gutter) == 'number' and strip-unit($gutter) > 0 {
+    $value: rem-calc($value) * $multiplier;
+    #{$prop}: $value;
+  }
+}
+
+
+@mixin fontAwesomeIcon($icon) {
+  @extend .fa;
+  @extend .fa-#{$icon};
+  &:before {
+    margin-right: 4px;
+    font-family: FontAwesome;
+  }
+  font-family: $body-font-family;
+}

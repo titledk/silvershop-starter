@@ -1,0 +1,18 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+SSViewer:
+  #using mysite as theme
+  theme_enabled: false
+
+
+---
+Only:
+  environment: 'dev'
+---
+DataObjectAnnotator:
+  enabled: true
+  enabled_modules: ['mysite']

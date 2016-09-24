@@ -1,0 +1,105 @@
+.typography {
+  .left {
+    text-align: left;
+  }
+  .center {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  /* IMAGES
+    -------------------------------------------- */
+  img,
+  div.img {
+    //display: block;
+
+    //border: 5px solid #d7d7d7;
+    height: auto;
+    /* resets the image height so that it maintains its aspect ratio when width is set */
+    //background: transparent url(../images/ajax-loader.gif) no-repeat center center;
+    &.left {
+      float: left;
+      max-width: 50%!important;
+      margin: 6px 20px 10px 0;
+    }
+    &.right {
+      float: right;
+      max-width: 50%!important;
+      /* Responsive width */
+      margin: 6px 0 10px 20px;
+    }
+    &.leftAlone {
+      float: left;
+      margin-right: 100%;
+      margin-bottom: 10px;
+      clear: both;
+    }
+    &.center {
+      max-width: 100%;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 10px;
+      clear: both;
+    }
+  }
+  .captionImage {
+    //width: 100%;
+    margin-top: 5px;
+    img {
+      margin: 0;
+    }
+    &.left {
+      float: left;
+      margin: 5px 30px 20px 0px;
+    }
+    &.right {
+      float: right;
+      margin: 5px 0 20px 30px;
+    }
+    &.left[style], &.right[style] {
+      max-width: 50%;
+      /* Overides core width to make responsive */
+      img {
+        max-width: 100%;
+      }
+    }
+    &.left img, &.right img {
+      float: none;
+      max-width: none;
+      //width: 100%;
+    }
+    &.left img {
+      margin-right: -10px;
+    }
+    &.right {
+      img {
+        margin-left: -10px;
+      }
+      p {
+        text-align: left;
+        //margin-left: -10px;
+      }
+    }
+    &.leftAlone {
+      float: none;
+      margin: 0 20px 20px 0px;
+    }
+    &.center {
+      margin: 0 auto 20px;
+    }
+    p {
+      clear: both;
+      margin: 5px 0;
+      font-style: italic;
+      //color: #888;
+    }
+  }
+}

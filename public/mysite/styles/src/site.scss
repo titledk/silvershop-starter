@@ -1,0 +1,31 @@
+//Site.scss
+
+@charset "utf-8";
+
+//Foundation
+
+//this is copied from
+//@import '../../node_modules/foundation-sites/scss/settings/settings';
+@import 'settings';
+
+@import '../../node_modules/foundation-sites/scss/util/util';
+@import '../../node_modules/foundation-sites/scss/global';
+@import '../../node_modules/foundation-sites/scss/grid/size';
+@import '../../node_modules/foundation-sites/scss/grid/column';
+@import '../../node_modules/foundation-sites/scss/grid/position';
+@import '../../node_modules/foundation-sites/scss/grid/row';
+@import '../../node_modules/foundation-sites/scss/components/button';
+@import '../../node_modules/foundation-sites/scss/components/callout';
+
+//Font Awesome
+
+$fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts";
+@import '../../node_modules/font-awesome/scss/font-awesome';
+
+@import "mixins/mixins";
+
+
+@import "silverstripe/form";
+@import "layout/layout";
+@import "layout/Navigation";
+@import "layout/SideBar";

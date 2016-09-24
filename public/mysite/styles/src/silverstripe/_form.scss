@@ -1,0 +1,20 @@
+form {
+  .message {
+    &.bad,
+    &.required {
+      @include callout($alert-color);
+    }
+    &.good {
+      @include callout($success-color);
+    }
+  }
+  span.message {
+    @include callout($alert-color);
+  }
+
+  .Actions {
+    input[type=submit] {
+      @include button;
+    }
+  }
+}
