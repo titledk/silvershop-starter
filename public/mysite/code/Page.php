@@ -23,4 +23,12 @@ class Page_Controller extends ContentController
         Requirements::javascript('mysite/js/dist/libs.js');
         Requirements::javascript('mysite/js/dist/site.js');
     }
+
+    /**
+     * @return bool
+     */
+    function IsLive()
+    {
+        return Director::isLive();
+    }
 }
