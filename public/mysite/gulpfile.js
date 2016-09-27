@@ -69,7 +69,7 @@ gulp.task('site-watch', () => {
   if (isDev) {
     livereload.listen();
     gulp.watch(`${PATHS.CSS_SRC}/**/*.scss`, ['css']);
-    gulp.watch(`${PATHS.JS_SRC}/*.js`, ['js']);
+    gulp.watch(`${PATHS.JS_SRC}/*/**.js`, ['js']);
   }
 });
 

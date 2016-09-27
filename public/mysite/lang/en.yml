@@ -1,0 +1,6 @@
+en:
+  CookiePolicyMsg:
+    Msg: >
+      {SiteTitle} is using cookies to give you a better experience.
+      Cookies are necessary to make the site function properly.
+    Accept: Accept

@@ -1,0 +1,9 @@
+da:
+  CookiePolicyMsg:
+    Msg: >
+      På {SiteTitle} bruger vi cookies for at give dig en bedre oplevelse.
+      Cookies er nødvendige for at få hjemmesiden til at fungere optimalt.
+      Cookies giver os viden om, hvordan du bruger vores hjemmeside, så vi kan forbedre indhold og
+      funktionalitet for dig og for andre.
+      Cookies på denne hjemmeside bruges primært til trafikmåling.
+    Accept: Acceptér cookies

@@ -17,6 +17,7 @@
     </div>
 
     <% include Footer %>
+    <% include CookiePolicyMsg %>
     <% include TrackingScripts %>
 </body>
 </html>
