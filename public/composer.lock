@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "c754882e0a195ac3e5943f939bc734ff12308df3"
+                "reference": "17a471a47a83e83ca7ab41f3f9c9747ee5564ea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/c754882e0a195ac3e5943f939bc734ff12308df3",
-                "reference": "c754882e0a195ac3e5943f939bc734ff12308df3",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/17a471a47a83e83ca7ab41f3f9c9747ee5564ea6",
+                "reference": "17a471a47a83e83ca7ab41f3f9c9747ee5564ea6",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2016-08-23 09:58:24"
+            "time": "2016-10-11 20:11:45"
         },
         {
             "name": "silverstripe/framework",
@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "796ca2171d5d4ab0796d92b39e21e817f617637a"
+                "reference": "4c7ba731beaea2f4157c3abbe292c4a6d07cc81c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/796ca2171d5d4ab0796d92b39e21e817f617637a",
-                "reference": "796ca2171d5d4ab0796d92b39e21e817f617637a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/4c7ba731beaea2f4157c3abbe292c4a6d07cc81c",
+                "reference": "4c7ba731beaea2f4157c3abbe292c4a6d07cc81c",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2016-09-20 19:46:18"
+            "time": "2016-10-11 19:16:33"
         },
         {
             "name": "silverstripe/reports",
@@ -834,7 +834,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.11",
+            "version": "v2.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
