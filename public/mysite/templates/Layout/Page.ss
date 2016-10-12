@@ -1,8 +1,5 @@
 <div class="row">
-    <div class="medium-4 columns">
-        <% include SideBar %>
-    </div>
-    <div class="medium-8 columns">
+    <div class="medium-8 medium-push-4 columns">
         <div class="content typography">
             <h1>
                 $Title
@@ -10,5 +7,8 @@
             $Content
             $Form
         </div>
+    </div>
+    <div class="medium-4 medium-pull-8 columns">
+        <% include SideBar %>
     </div>
 </div>
