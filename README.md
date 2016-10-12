@@ -1,9 +1,24 @@
-# SilverStripe Starter
+# SilverShop Starter
 
 Gulp & npm based frontend development setup for SilverStripe and other projects, leveraging live reloading 
 & Babel for ES6 and other cool stuff
 
 This setup comes preloaded with Foundation.
+
+## This is a Fork!
+
+**This is a fork of [SilverStripe Starter](https://github.com/titledk/silverstripe-starter)**
+
+Any non-SilverShop specific changed should be made there.
+
+Updating from SilverStripe Starter:
+
+```sh
+git remote add upstream git@github.com:titledk/silverstripe-starter.git
+git fetch upstream
+git rebase upstream/master
+```
+
 
 ## Install
 
