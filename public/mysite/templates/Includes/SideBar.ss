@@ -5,7 +5,7 @@
                 <h3>
                     $MenuTitle
                 </h3>
-                <ul class="menu">
+                <ul class="menu vertical">
                     <% include SidebarMenu %>
                 </ul>
             <% end_with %>
