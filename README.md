@@ -29,6 +29,8 @@ npm install
 gulp build
 ```
 
+Run `/dev/tasks/PopulateShopTask` to populate shop.
+
 
 ## Watch
 
