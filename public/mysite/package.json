@@ -2,7 +2,8 @@
   "name": "mysite",
   "version": "1.0.0",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "build": "gulp build"
   },
   "dependencies": {
     "font-awesome": "^4.6.3",

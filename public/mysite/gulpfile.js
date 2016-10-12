@@ -74,13 +74,13 @@ gulp.task('site-watch', () => {
 });
 
 
-/**
- * Watch
- * the only actual needed command
- */
-gulp.task('watch', [
+gulp.task('build', [
   'css',
   'js',
-  'bundle-libs',
+  'bundle-libs'
+]);
+
+gulp.task('watch', [
+  'build',
   'site-watch'
 ]);

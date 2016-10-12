@@ -1,11 +1,20 @@
 <?php
 
+/**
+ * Class Page
+ *
+ */
 class Page extends SiteTree
 {
     private static $db = [];
 
     private static $has_one = [];
 }
+/**
+ * Class Page_Controller
+ *
+ * @property Page dataRecord
+ */
 class Page_Controller extends ContentController
 {
     private static $allowed_actions = [];
