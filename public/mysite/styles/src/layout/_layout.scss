@@ -9,6 +9,13 @@ footer.footer {
     color: darken($primary-color, 30%);
   }
 }
+footer.footer {
+  @include useGutter(1, 'margin-top');
+}
+
+nav.primary {
+  background: $topbar-background;
+}
 
 #Breadcrumbs {
   ul.breadcrumbs {

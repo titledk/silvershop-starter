@@ -7,7 +7,7 @@
                     $MenuTitle.XML
                 </a>
                 <% if $Children %>
-                    <ul class="menu">
+                    <ul class="menu vertical">
                         <% include SidebarMenu %>
                     </ul>
                 <% end_if %>

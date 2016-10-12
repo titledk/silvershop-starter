@@ -13,7 +13,7 @@ class HomePage extends Page
  *
  * @property HomePage dataRecord
  * @method HomePage data()
- * @mixin HomePage
+ * @mixin HomePage dataRecord
  */
 class HomePage_Controller extends Page_Controller
 {
