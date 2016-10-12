@@ -12,6 +12,7 @@ cd public
 composer install
 cd mysite
 npm install
+gulp build
 ```
 
 
