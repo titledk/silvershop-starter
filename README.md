@@ -15,8 +15,7 @@ Updating from SilverStripe Starter:
 
 ```sh
 git remote add upstream git@github.com:titledk/silverstripe-starter.git
-git fetch upstream
-git rebase upstream/master
+git pull upstream master
 ```
 
 
