@@ -1,4 +1,4 @@
-<div id="CookiePolicyMsg">
+<div id="CookiePolicyMsg" class="hide-for-print">
     <div class="row">
         <div class="columns">
             <div class="alert callout">
