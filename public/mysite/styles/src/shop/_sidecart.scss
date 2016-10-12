@@ -1,0 +1,25 @@
+.sidecart {
+  background: $light-gray;
+  border: 1px solid $medium-gray;
+  padding: 12px;
+
+  div.checkout {
+    a {
+      @include button;
+    }
+  }
+
+  .item {
+    position: relative;
+    padding: 10px;
+    background: $white;
+    @include useGutter(0.5, 'margin-bottom');
+    a.remove {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      @include button;
+      margin-bottom: 0px;
+    }
+  }
+}

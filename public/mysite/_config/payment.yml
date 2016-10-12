@@ -1,0 +1,6 @@
+---
+Name: payment
+---
+Payment:
+  allowed_gateways:
+    - 'Dummy'

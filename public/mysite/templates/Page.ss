@@ -12,7 +12,7 @@
         <% include Breadcrumbs %>
     <% end_if %>
 
-    <div class="main">
+    <div class="main row">
         $Layout
     </div>
 

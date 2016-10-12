@@ -30,3 +30,11 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts";
 @import "layout/CookiePolicyMsg";
 @import "layout/Navigation";
 @import "layout/SideBar";
+
+@import 'shop/Sidebar';
+@import 'shop/sidecart';
+@import 'shop/CartPage';
+@import 'shop/AccountPage';
+@import 'shop/Product';
+@import 'shop/ProductGroup';
+@import 'shop/CheckoutPage';

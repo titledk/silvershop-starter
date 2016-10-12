@@ -15,3 +15,7 @@ footer.footer {
     margin: 20px;
   }
 }
+
+.main {
+  @include clearfix;
+}

@@ -1,14 +1,14 @@
 <aside id="SideBar" class="sidebar">
-    <% if $Menu(2) %>
-        <nav class="secondary">
-            <% with $Level(1) %>
-                <h3>
-                    $MenuTitle
-                </h3>
-                <ul class="menu">
-                    <% include SidebarMenu %>
-                </ul>
-            <% end_with %>
-        </nav>
+    <% if $GroupsMenu %>
+        <% include ProductMenu %>
+    <% else %>
+        <% with $Parent %>
+            <% if $ProductMenu %>
+                <% include ProductMenu %>
+            <% end_if %>
+        <% end_with %>
     <% end_if %>
+  <div class="cart">
+      <% include SideCart %>
+  </div>
 </aside>

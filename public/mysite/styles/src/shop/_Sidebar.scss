@@ -1,0 +1,12 @@
+#SideBar {
+  @include grid-column(12);
+  @include breakpoint(medium up) {
+    @include grid-column(4);
+    @include grid-column-position(8);
+  }
+}
+.Page {
+  #SideBar {
+    @include grid-column-position(0);
+  }
+}

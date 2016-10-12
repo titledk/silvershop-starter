@@ -1,0 +1,56 @@
+#ProductGroup {
+  @include grid-column(12);
+  @include breakpoint(medium up) {
+    @include grid-column(8);
+    @include grid-column-position(-4);
+  }
+}
+
+.productList {
+  margin-left: 0px;
+  .productItem {
+    @include clearfix;
+    padding: 16px;
+    background: $light-gray;
+    border: 1px solid $medium-gray;
+    margin-bottom: 10px;
+
+    .row {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+    .columns {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .price {
+      font-size: 18px;
+    }
+    .callout {
+      .buttons {
+        padding-top: 6px;
+        text-align: right;
+      }
+      a {
+        margin-bottom: 0px;
+      }
+    }
+    .add {
+      a {
+        @include button;
+      }
+    }
+
+    @include breakpoint(medium up) {
+      h3 {
+        margin-top: 0px;
+      }
+      .price {
+        font-size: 180%;
+      }
+      .add {
+        float: right;
+      }
+    }
+  }
+}

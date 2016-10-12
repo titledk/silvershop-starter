@@ -1,0 +1,43 @@
+.Product {
+  #Product {
+    @include grid-column(12);
+    @include breakpoint(medium up) {
+      @include grid-column(8);
+      @include grid-column-position(-4);
+    }
+  }
+}
+
+#Product {
+  .productImage {
+    margin-bottom: 12px;
+    display: block;
+    clear: both;
+  }
+  .price {
+    @include clearfix;
+    .value {
+      font-size: 260%;
+    }
+  }
+  p.NumItemsInCart {
+    @include callout($success-color);
+  }
+  form {
+    @include clearfix;
+    fieldset {
+      float: left;
+    }
+    input.text {
+      width: 100px;
+    }
+    .Actions {
+      float: left;
+      margin-top: 24px;
+      margin-left: 10px;
+      input {
+        @include button();
+      }
+    }
+  }
+}

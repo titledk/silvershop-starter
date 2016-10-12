@@ -1,0 +1,41 @@
+.AccountPage {
+  .accountnav {
+    @include grid-column(12);
+    @include breakpoint(medium up) {
+      @include grid-column(4);
+      @include grid-column-position(8);
+    }
+    ul.nav {
+      list-style:none;
+      margin-left: 0px;
+      li {
+        a {
+          i.fa {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+
+  }
+  .typography {
+    @include grid-column(12);
+    @include breakpoint(medium up) {
+      @include grid-column(8);
+      @include grid-column-position(-4);
+    }
+  }
+  #Account {
+    @include grid-row;
+    .typography {
+      @include grid-column(12);
+    }
+  }
+  #ShippingTable {
+    tbody {
+      td:first-child {
+        width: 50%;
+      }
+    }
+  }
+}
